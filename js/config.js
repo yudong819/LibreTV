@@ -38,10 +38,10 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    // xiaomaomi: {
-    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
-    //     name: '小猫咪资源',
-    // },
+     xiaomaomi: {
+         api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
+         name: '小猫咪资源',
+     },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
@@ -122,10 +122,10 @@ const API_SITES = {
     // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
-     ckzy: {
-         api: 'https://www.ckzy1.com',
-         name: 'CK资源',
-         adult: true
+    // ckzy: {
+     //    api: 'https://www.ckzy1.com',
+     //    name: 'CK资源',
+      //   adult: true
      },
     // jkun: {
     //     api: 'https://jkunzyapi.com',
@@ -241,9 +241,9 @@ const ERROR_MESSAGES = {
 // 添加进一步安全设置
 const SECURITY_CONFIG = {
     enableXSSProtection: true,  // 是否启用XSS保护
-//    sanitizeUrls: true,         // 是否清理URL
+    sanitizeUrls: true,         // 是否清理URL
     maxQueryLength: 100,        // 最大搜索长度
-    // allowedApiDomains 不再需要，因为所有请求都通过内部代理
+     allowedApiDomains 不再需要，因为所有请求都通过内部代理
 };
 
 // 添加多个自定义API源的配置

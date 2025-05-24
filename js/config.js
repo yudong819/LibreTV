@@ -109,16 +109,17 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    testSource: {
-        api: 'https://155api.com/api.php/provide/vod',
-        name: '15资源',
-        adult: true
-    },
-        testSource: {
-        api: 'https://naixxzy.com/api.php/provide/vod',
-        name: 'NC资源',
-        adult: true
-    },
+    //senling: {
+    //    api: 'https://senlinzy.com/api.php/provide/vod',
+    //    name: 'SL资源',
+    //    adult: true
+    //},
+    
+    //naixiang: {
+    //    api: 'https://naixxzy.com/api.php/provide/vod',
+    //    name: 'NC资源',
+    //    adult: true
+    //},
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
     // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
@@ -129,45 +130,55 @@ const API_SITES = {
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
      ckzy: {
          api: 'https://www.ckzy1.com/api.php/provide/vod',
-         name: 'CK资源',
+         name: 'ck资源',
          adult: true
      },
      jkun: {
          api: 'https://jkunzyapi.com/api.php/provide/vod',
-         name: 'jkun资源',
+         name: 'jk资源',
          adult: true
      },
      bwzy: {
          api: 'https://api.bwzym3u8.com/api.php/provide/vod',
-         name: '百万资源',
+         name: 'bw资源',
          adult: true
      },
      souav: {
          api: 'https://api.souavzy.vip/api.php/provide/vod',
-         name: 'souav资源',
+         name: 'so资源',
          adult: true
      },
      r155: {
          api: 'https://155api.com/api.php/provide/vod',
-         name: '155资源',
+         name: '15资源',
          adult: true
      },
      lsb: {
          api: 'https://apilsbzy1.com/api.php/provide/vod',
-         name: 'lsb资源',
+         name: 'ls资源',
          adult: true
      },
      huangcang: {
          api: 'https://hsckzy.vip/api.php/provide/vod',
-         name: '黄色仓库',
+         name: 'hs资源',
          adult: true,
          detail: 'https://hsckzy.vip'
      },
      yutu: {
          api: 'https://yutuzy10.com/api.php/provide/vod',
-         name: '玉兔资源',
+         name: 'yt资源',
          adult: true
      },
+    naixiang: {
+        api: 'https://naixxzy.com/api.php/provide/vod',
+        name: 'nc资源',
+        adult: true
+    },
+    jies: {
+        api: 'https://naixxzy1.com/api.php/provide/vod',
+        name: '空资源测试',
+        adult: true
+    },
 
     // 下面是资源失效率高的API源，不建议使用
     // subo: {
